@@ -1,0 +1,101 @@
+body {font-size: 12px; color: #000; background-color: #FFF;}
+a {color: #002244;}
+.header {background-color: #AACCFF; text-align:right;height: 60px;font-weight: bolder; font-size: 14px;}
+.header img {float:left; margin-left: 30px;}
+.date {text-align: center;}
+.red_date {text-align: center; border: 1px solid #F00; color: #800;}
+.date input {width: 5em; font-size:10px;}
+.hours {text-align: right;}
+.hours input {width:2em;}
+.hours2 {text-align: right;}
+.hours2 input {width:2em; border: 1px solid #AFA;}
+.action {border: 1px solid black; background-color: #FFF; font-size: 8px;}
+.action2 {border: 1px solid red; background-color: #000; color: #F00; font-size: 8px;}
+.poc input {width:5em;}
+.percent {text-align: right;}
+.done_percent {text-align: right; color: #00F;}
+.percent input {width:3em;}
+.text {text-align:right; width: 10em;}
+.select {text-align:right; width: 10em;}
+.warn {border: 1px solid #ADF; background-color: #FAA; font-size: 12px;}
+.warn2{border: 1px solid #ADF; background-color: #AFA; font-size: 12px;}
+.warn3{border: 1px solid #ADF; background-color: #AAF; font-size: 12px;}
+.na{border: 1px solid #222; background-color: #442; font-size: 12px;}
+.error {border: 2px solid red; color: #800;background-color: #DDD; font-size: 12px;}
+.debug {color: red; background-color: black; font-size: 12px;}
+.status {border: 1px solid #DEF;color: black; background-color: #ACF; font-size: 12px;}
+.na {background-color: #999; text-align:center;}
+.row0 {background-color: #EEE;}
+.row1 {background-color: #EEC;}
+.total {background-color: #DDD; font-weight: bold; text-align:right;}
+.dbstat {background-color: #DDD;font-size:10px;color:#000;border: 1px solid #000;}
+.pagetime {background-color: #DDD;font-size:10px;color:#000;border: 1px solid #000;}
+.version {background-color: #DDD;font-size:10px;color:#000;border: 1px solid #000;}
+.list {background-color: #DDD; border-spacing: 1px; border-width: 2px; border-style: solid; border-color: #000;}
+.but {display: inline;padding: 1px;font-size:10px; font-weight: bold; background-color: #FFF; color: #060; border: 1px solid #884;}
+.mtab {border: 1px solid #444; background-color: #ADF;}
+.taskname {text-align:left; font-weight:bold;}
+
+
+fieldset {background-color: #FFF; border: 1px solid #000;}
+legend {margin-top: 5px; background-color: #FFF;font-size: 14px; font-weight: bolder; color: #440;}
+td {padding: 0px; font-size: 12px;}
+th {font-size: 12px; font-weight: bolder; background-color: #EEB;}
+select {font-size: 12px;}
+
+menuBar,
+.menuBar a.menuButton,
+.menuBar a.menuButton1,
+.menu,
+.menu a.menuItem {
+  font-family: Verdana, "MS Sans Serif", Arial, sans-serif;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 10pt;
+  color: #004;
+}
+
+.menuBar {
+  background-color: #FFF;
+  border: 2px solid;
+  border-color: #002 #000 #000 #002;
+  padding: 4px 2px 4px 2px;
+  text-align: left;
+}
+
+.menuBar a.menuButton {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #004;
+  cursor: default;
+  font-weight: bold;
+  margin: 1px;
+  padding: 2px 6px 2px 6px;
+  text-decoration: none;
+}
+.menuBar a.menuButton1 {
+  background-color: #FFA;
+  border: 1px solid #8F8;
+  color: #004;
+  cursor: default;
+  font-weight: bold;
+  margin: 1px;
+  padding: 2px 6px 2px 6px;
+  text-decoration: none;
+}
+
+.menuBar a.menuButton:hover {
+  background-color: transparent;
+  border-color: #330 #220 #220 #330;
+}
+
+.menuBar a.menuButtonActive,
+.menuBar a.menuButtonActive:hover {
+  background-color: #033;
+  border-color: #330 #220 #220 #330;
+  color: #DFF;
+  position: relative;
+  left: 1px;
+  top: 1px;
+}
